@@ -141,9 +141,8 @@ const styles = StyleSheet.create({
   logoContainer: {
     justifyContent: 'center',
     alignItems: 'center',
-    paddingVertical: 40,
+    paddingVertical: 10,
     marginTop: 40,
-    backgroundColor: COLORS.white,
   },
   logo: {
     width: width * 0.8,
@@ -165,13 +164,13 @@ const styles = StyleSheet.create({
     width: '90%',
     marginTop: 15,
     paddingVertical: 15,
-    backgroundColor: COLORS.white,
+    backgroundColor: COLORS.main,
     borderRadius: 25,
   },
   itemText: {
     fontSize: 20,
     fontFamily: FONTS.black,
-    color: COLORS.main,
+    color: COLORS.white,
     textAlign: 'center',
   },
   cartIcon: {
